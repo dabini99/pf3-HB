@@ -56,7 +56,7 @@ header .wrap ul.gnb li a {
   transition: 0.5s;
 }
 header .wrap .sublist {
-  background-color: white;
+  background-color: rgba(12, 12, 12, 0.3);
   position: absolute;
   left: 0;
   top: 100px;
@@ -66,6 +66,7 @@ header .wrap .sublist {
   transition: 0.5s;
   display: none;
   grid-template-columns: calc((100% - 1520px) / 2) calc((1520px * 0.3) + 50px) 162px 162px 162px 162px 1fr calc((100% - 1520px) / 2);
+  height: 250px;
 }
 header .wrap .sublist div {
   
@@ -89,11 +90,17 @@ header .wrap .sublist div h2 {
 header .wrap .sublist div ul.useguide {
   
 }
-header .wrap .sublist div ul.useguide li {
-  
+header .wrap .sublist div ul.useguide li {  
+  line-height: 1.4;
 }
 header .wrap .sublist div ul.useguide li a {
   transition: 0.5s;
+  color: white;
+  font-size: 16px;
+}
+header .wrap .sublist div ul.useguide li a:hover{
+  color: #01da01;
+  font-weight: 700;
 }
 header .wrap span.lang {
   

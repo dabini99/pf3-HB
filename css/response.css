@@ -124,8 +124,15 @@
   .h5{
   font-size: calc(18px * 0.8);
   }
+  header{    
+  /*! padding: 0 10px; */
+  }
   header .wrap{
   display: flex;
+  width: 100%;
+  }
+  header .wrap h1{  
+  margin-left: 10px;
   }
   header .wrap ul.gnb{
     display: none;
@@ -135,6 +142,7 @@
   }
   .ham{
   display: flex;
+  background-color: transparent;
   }
   
   /*  타이틀  */
@@ -151,7 +159,7 @@
   /*  비디오  */
   section#promotion .wrap iframe{
   width: calc(100vw - 30px);
-  height: calc(36.25vw - 30px);
+  height: calc(36.25vh - 30px);
   /*   width: 100vw;
     height: 36.25vw; */
   }
@@ -169,6 +177,12 @@
   section#business .wrap ul li a::before{
   width: calc(100vw - 30px);
   height: calc(48.57vw - 30px);
+  }
+  section#business .wrap ul li a h3{    
+  color: #3b3b3b;
+  }
+  section#business .wrap ul li a p{    
+  color: #545454;
   }
 /* product   */
   section#products .wrap ul{
@@ -200,8 +214,10 @@
   flex-direction: column;
   gap: 10px;
   }
-  section#news .wrap h3{
-    
+  section#news .wrap h2{    
+  padding: 20px 0;
+  }
+  section#news .wrap h3{    
   margin-bottom: 9px;
   }
   section#news .wrap ul{

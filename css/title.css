@@ -33,4 +33,6 @@
 }
 #title .wrap p {
   order: 1;
+  font-weight: 500;
+  color: #edeaea;
 }
